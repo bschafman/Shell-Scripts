@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Shell-scripts : Scripts I use to automate some common tasks around MacOS" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Shell-scripts</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/joshpopenyc/Shell-Scripts">View on GitHub</a>
+
+          <h1 id="project_title">Shell-scripts</h1>
+          <h2 id="project_tagline">Scripts I use to automate some common tasks around MacOS</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/joshpopenyc/Shell-Scripts/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/joshpopenyc/Shell-Scripts/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="remove-all-imessage-logs-in-macos" class="anchor" href="#remove-all-imessage-logs-in-macos"><span class="octicon octicon-link"></span></a>REMOVE ALL iMessage logs in MacOS</h1>
+
+<p>This script is stupid simple.. But makes it easy to delete chat logs on your (or your employers) apple computer. I found this task tedious and repetitive and not as easy as it should be.</p>
+
+<h3>
+<a name="to-use" class="anchor" href="#to-use"><span class="octicon octicon-link"></span></a>To use:</h3>
+
+<p>Save the file to your DESKTOP as simply "remove_chat_logs" (no extension). Follow these instructions to create an executable file. Or if that fails, use the below command to run the script from terminal.</p>
+
+<p>Then open terminal, and type this in:</p>
+
+<pre><code>chmod -x $HOME/Desktop/remove_chat_logs
+  // please note: if for some strange reason you do not have the path variable $HOME defined, 
+  // just change the above line to read:
+chmod -x "/Users/YOURNAMEHERE/Desktop/remove_chat_logs"
+</code></pre>
+
+<p>If it does not turn into an executable file.. Then run this command in terminal to execute the script:</p>
+
+<pre><code>open -b com.apple.terminal $HOME/Desktop/remove_chat_logs
+</code></pre>
+
+<p><strong>Otherwise</strong>, <em>just double click the file.</em></p>
+
+<p>This <em>should</em> create a shell executable file you can double click to run anytime. 
+If not, use the command above.</p>
+
+<p><strong>I use the terminal command because its faster and easier for me.</strong></p>
+
+<p><strong>Note- no files will ever be deleted without you first giving the OK.</strong></p>
+
+<p><strong>Keep the file on the desktop (or wherever you want to put it) and run it as often as you want.</strong></p>
+
+<p>Email me at <a href="mailto:joshpopenyc@gmail.com">joshpopenyc@gmail.com</a> if you have questions. Or if you have hatemail. I'm always up for a good read.</p>
+
+<p>Thanks and <strong>thanks</strong>.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Shell-scripts maintained by <a href="https://github.com/joshpopenyc">joshpopenyc</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
